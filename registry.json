@@ -1,50 +1,32 @@
-[
-  {
-    "title": "Filecoin Builder Day Hong Kong 2025 Recap",
-    "creator": "A",
-    "timestamp": "2025-08-18T12:00:00Z",
-    "content_hash": "bafybeigdyrgh5w3qzvlbn5r6k7y6r77yjbktj5ccw4dc3z72mjqh4q4xvm",
-    "category": "event",
-    "metadata": {
-      "language": "EN",
-      "format": "PDF",
-      "dealId": "1234567",
-      "provider": "f03151456",
-      "verified": true,
-      "description": "Event recap and key insights from Filecoin Builder Day Hong Kong 2025",
-      "gateway": "https://ipfs.io/ipfs/bafybeigdyrgh5w3qzvlbn5r6k7y6r77yjbktj5ccw4dc3z72mjqh4q4xvm"
-    }
+{
+  "title": "Filecoin Fast Storage Test — test2.jpg",
+  "creator": "EverMedia Vault Alliance",
+  "timestamp": "2025-11-11T15:40:00Z",
+  "content_hash": "bafybeibzr673inq6iolcoejzpgj5djmyapd2obov6mxoasxgxyh756bcgm",
+  "category": "storage-test",
+  "metadata": {
+    "language": "N/A",
+    "format": "JPG",
+    "description": "Quick storage and retrieval validation using Filecoin Pin Cloud with PDP verification.",
+    "source_url": "https://pdp.vxb.ai/calibration/dataset/417"
   },
-  {
-    "title": "Filecoin Ecosystem Digest — August 2025",
-    "creator": "B",
-    "timestamp": "2025-08-20T08:00:00Z",
-    "content_hash": "bafybeih8yfh2suhxjkgv64q32d7nr5lrbypo4pnfgizjqm2xzuv3j6ckgm",
-    "category": "media",
-    "metadata": {
-      "language": "EN",
-      "format": "PDF",
-      "dealId": "2233445",
-      "provider": "f03385456",
-      "verified": true,
-      "description": "Monthly media summary and analysis of ecosystem growth in August 2025",
-      "gateway": "https://ipfs.io/ipfs/bafybeih8yfh2suhxjkgv64q32d7nr5lrbypo4pnfgizjqm2xzuv3j6ckgm"
-    }
+  "storage": {
+    "mode": "managed",
+    "dealId": "N/A",
+    "pieceCid": "bafkzcibeuljbud643luobwzw7zcp7orcdcnkpc7mtcwvcukybh5jszrdywreipnwgq",
+    "provider": "Mongo2Stor",
+    "verified": true,
+    "region": "APAC",
+    "references": [
+      {
+        "type": "pdp_proof",
+        "url": "https://pdp.vxb.ai/calibration/dataset/417"
+      }
+    ]
   },
-  {
-    "title": "DAO Governance Update #23",
-    "creator": "C",
-    "timestamp": "2025-08-12T10:30:00Z",
-    "content_hash": "bafybeifzkskd4noxp66m4g3e54e2rwb7esb4pdzkaxp5hvnqfou4iq5hlu",
-    "category": "dao",
-    "metadata": {
-      "language": "EN",
-      "format": "PDF",
-      "dealId": "889977",
-      "provider": "f03402285",
-      "verified": false,
-      "description": "Summary of proposal #23 and governance voting results",
-      "gateway": "https://ipfs.io/ipfs/bafybeifzkskd4noxp66m4g3e54e2rwb7esb4pdzkaxp5hvnqfou4iq5hlu"
-    }
+  "health": {
+    "last_check": "2025-11-11T15:40:00Z",
+    "retrieval_ok": true,
+    "availability_7d": 1.0
   }
-]
+}
