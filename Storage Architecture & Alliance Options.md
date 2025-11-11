@@ -100,12 +100,21 @@ Example:
 }
 ```
 
-## 7. Governance Implications
+## 7. Adjustment on SP Engagement Plan
+During Milestone 1, the EverMedia Vault team focused on validating the managed pinning mechanism and end-to-end data proof process.  
+Based on the updated technical architecture, the Vault now integrates with Filecoin Pin Cloud for automated CID generation and verification.  
+As a result, the direct SP engagement workflow (and corresponding contract template) has been postponed to later milestones, when the dual-track storage model (Managed Pinning + Direct SP Matching) becomes active.  
+
+This adjustment ensures that the early-stage deliverables remain verifiable and open-sourced, while avoiding premature coordination with external Storage Providers before the technical pipeline is finalized.  
+
+The SP contract module and matching mechanism will be included in **Milestone 2**, once the Vault frontend integrates user selection and SP registry capabilities.
+
+## 8. Governance Implications
 - The **Managed Pinning** mode lowers barriers for community participation, ensuring fast inclusion and visibility.  
 - The **Direct SP** mode strengthens the alliance’s credibility through professionalized data management and transparent contracts.  
 - Both models converge into a unified transparency layer through the Vault’s `registry.json` and monthly reporting system.
 
-## 8. Future Outlook
+## 9. Future Outlook
 In Milestone 2–3:
 - Extend the Direct SP pathway into a semi-automated “deal proposal” interface.
 - Introduce an SP reputation and performance dashboard.
@@ -120,4 +129,3 @@ In Milestone 2–3:
  ├── media-data-standard.md
  ├── evermedia-alliance.md
  └── storage-architecture-and-alliance-options.md
-```
